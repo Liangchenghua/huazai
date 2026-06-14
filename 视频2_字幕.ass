@@ -1,0 +1,21 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Noto Sans CJK SC,58,&H00FFFFFF,&H00202020,&H64000000,1,0,0,0,100,100,0,0,1,4,2,2,90,90,210,1
+Style: Tag,Noto Sans CJK SC,40,&H00FFD24D,&H00202020,&H64000000,1,0,0,0,100,100,0,0,1,3,1,8,60,60,120,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.30,0:00:04.60,Sub,,0,0,0,,{\fad(250,200)}今天这台奔驰\N老板亲自验车定损
+Dialogue: 0,0:00:05.40,0:00:10.80,Sub,,0,0,0,,{\fad(200,200)}客户自己也检查过\N叶子板这里有点松动
+Dialogue: 0,0:00:11.00,0:00:16.70,Sub,,0,0,0,,{\fad(200,200)}叶子板需要做钣金修复处理
+Dialogue: 0,0:00:17.00,0:00:21.50,Sub,,0,0,0,,{\fad(200,200)}前杠这个位置\N也需要一并处理
+Dialogue: 0,0:00:22.00,0:00:30.80,Sub,,0,0,0,,{\fad(200,200)}前杠做「半杠」修复\N不用整体更换 更省成本
+Dialogue: 0,0:00:31.00,0:00:32.60,Sub,,0,0,0,,{\fad(200,250)}专业的事 交给专业的人
+Dialogue: 0,0:00:00.30,0:00:32.60,Tag,,0,0,0,,@HFBX.Benz.servic
